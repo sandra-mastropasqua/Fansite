@@ -365,23 +365,22 @@ footer {
     margin-left: -30px;
 }
 
-.wrapper img {
+.wrapper * {
     height: 300px;
     width: 400px;
     object-fit: cover;
     margin: 5px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.pic1:hover {
-    .hidden1 {
-        display: block;
-       
-    }
+.wrapper p {
+    font-size: 5em;
+    color: #FDA035;
 }
-
-.hidden1  {
-    display: none;
-    height: 150%;
-    width: 150%;
+.gridpara, .gridpara2 {
+    text-align: left;
+}
+.gridpara1 {
+    text-align: right;
 }
