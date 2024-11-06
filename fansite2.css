@@ -146,15 +146,20 @@ body{
     font-size: 1.5em;
     color: #FDA035;
 }
-.Aboutme{
+.Aboutme p{
     margin-top: 5%;
     text-align: center;
+    font-family : Rubik mono one;
+    color : white;
+    font-size: 1.5em;
 }
 .Link3{
     text-align: center;
     margin-bottom : 5%;
 }
+
 /*Music page*/
+
 .NameAlbum{
     font-family: Rubik mono one;
     font-size: 1.5em;
@@ -177,5 +182,20 @@ body{
     color: white;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.linkalbum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.Audio{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 3%;
 }
 
