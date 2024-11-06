@@ -307,3 +307,52 @@ footer {
     background-color: #15162D;
     opacity: 0.9;
 }
+
+.futureintro {
+    font-size: 2.5em;
+    color: #FDA035;
+    margin: 5%;
+    text-align: right;
+}
+
+.futurecontent img  {
+    width: 100%;
+    object-fit: cover;
+}
+
+.parafuture {
+    font-size: 1.5em;
+    color: white;
+    margin: 5%;
+}
+
+.futurepara {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    justify-content: baseline;
+}
+
+.quote {
+    margin: 4%;
+}
+
+.futurepara q {
+    font-size: 8em;
+    color: #FDA035;
+    width: 60%;
+}
+
+
+.futurepara span {
+    font-size: 1em;
+    color: white;
+}
+
+.parag {
+    font-size: 2em;
+    position: sticky;
+    top: 0%;
+    margin-top: -60%;
+}
