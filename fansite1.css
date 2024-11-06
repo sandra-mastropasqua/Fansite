@@ -30,7 +30,6 @@ body, html {
 }
 
 .banner .menu {
-    position: sticky;
     top: 1%;
     cursor: pointer;
     padding: 1%;
@@ -44,6 +43,7 @@ body, html {
 .menu:hover {
     .vertical-menu {
         display: block;
+        transition:block 1s ease;
     }
     .yay {
         display: none;
@@ -61,6 +61,11 @@ body, html {
 .vertical-menu a {
     color: #3E7ADA;
     font-size: 2rem;
+    border-bottom:2px solid #3E7ADA;
+}
+
+.vertical-menu a:hover {
+    background-color: #15162D;
 }
 
 .par1, .par2, .par3 {
@@ -88,6 +93,10 @@ hr {
     border-top: 5px solid #FDA035;
     margin: 1em 5em;
     padding: 0;
+}
+
+.history hr {
+    border-top: 5px solid #3E7ADA;
 }
 
 strong {
@@ -158,11 +167,45 @@ footer {
     color: white;
     font-size: 1.5rem;
     text-align: right;
+    padding: 5%;
 }
 
 .history h2 {
     color: #FDA035;
     font-size: 3rem;
-    margin: 10% 0;
+    margin: 5% 0;
     margin-left: 2%;
+}
+
+.histpar1 {
+    text-align: right;
+}
+
+.histpar2 {
+    text-align: left !important;
+}
+
+.histpar3 {
+    text-align: left !important;
+}
+
+.test img {
+    position: sticky;
+    top: 1%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.test h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.test h2, .test p {
+    position:relative;
+}
+
+.test p {
+    background-color: #15162D;
 }
