@@ -199,3 +199,52 @@ body{
     margin-left: 3%;
 }
 
+/*Biography page*/
+
+.Biography{
+    text-align: center;
+    font-family : Rubik Mono One;
+    font-size : 5em;
+    color : #FDA035
+}
+.Biography:hover{
+    color: white;
+}
+.presentation{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition : transform .1s;
+}
+.presentation img{
+    width : 250px;
+    height : 250px;
+}
+.presentation img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.Description{
+    font-family: Rubik Mono One;
+    font-size: 1em;
+    color :white;
+    text-align: center;
+    margin-right : 10%;
+    margin-left : 10%;
+}
+.Description:hover{
+    color:#3E7ADA;
+}
+.More{
+    font-family: Rubik Mono One;
+    font-size: 1em;
+    color: #FDA035;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+
+}
+
+
+
