@@ -393,3 +393,44 @@ footer {
 .wrapper img:hover {
     filter: grayscale(0);
 }
+
+.moreabout {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.moreabout h2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #FDA035;
+    font-size: 8.5em;
+    margin: 5%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.liens {
+    display: grid;
+    text-align: right;
+}
+
+.liens a {
+    display: grid;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin: 5%;
+    margin-left: 40%;
+}
+
+.liens img {
+    width: 200%;
+    height: 60%;
+    object-fit: cover;
+    margin: 5%;
+    margin-left: 20%;
+}
+
+.liens hr {
+    rotate: deg(90);
+}
