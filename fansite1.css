@@ -384,3 +384,12 @@ footer {
 .gridpara1 {
     text-align: right;
 }
+
+.wrapper img {
+   filter :  grayscale(1);
+   transition: all 1s ease;
+}
+
+.wrapper img:hover {
+    filter: grayscale(0);
+}
