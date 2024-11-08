@@ -1,0 +1,36 @@
+
+body {
+    background-color: #d4692d;
+}
+
+#header_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  } 
+  
+  li a {
+    display: block;
+  }
+
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #15162D;
+    color: white;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
