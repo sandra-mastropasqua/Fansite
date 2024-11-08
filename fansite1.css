@@ -396,7 +396,7 @@ footer {
 
 .moreabout {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 
 .moreabout h2 {
@@ -404,14 +404,16 @@ footer {
     text-orientation: mixed;
     color: #FDA035;
     font-size: 8.5em;
-    margin: 5%;
-    margin-left: 25%;
     margin-top: 5%;
+    padding-left: -10%;
 }
 
 .liens {
     display: grid;
     text-align: right;
+    margin-bottom: 10%;
+    border-right: #FDA035 5px solid;
+    padding-right: 10%;
 }
 
 .liens a {
@@ -425,12 +427,9 @@ footer {
 
 .liens img {
     width: 200%;
-    height: 60%;
+    height: 70%;
     object-fit: cover;
     margin: 5%;
-    margin-left: 20%;
-}
-
-.liens hr {
-    rotate: deg(90);
+    margin-left: 15%;
+    margin-bottom: -20%;
 }
