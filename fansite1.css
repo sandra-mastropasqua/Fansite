@@ -35,6 +35,63 @@ body, html {
     .history h2 {
         font-size: 2.5em !important;
     }
+
+    .futurecontent img {
+        height: 20%;
+    }
+
+    .futurepara q {
+        font-size: 1.5em;
+        width: 40%;
+    }
+
+    .parag {
+        font-size: 1em;
+        margin-top: 10%;
+    }
+
+    .wrapper {
+        margin-top: 10%;
+        margin-left: -15px;
+    }
+    
+    .wrapper * {
+        height: 100px;
+        width: 110px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .wrapper p {
+        font-size: 1.5em;
+    }
+
+    .moreabout h2 {
+        font-size: 5em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .liens {
+        margin-bottom: 10%;
+        border-right: #FDA035 5px solid;
+        padding-right: 30%;
+    }
+    
+    .liens a {
+        font-size: 1.5em;
+        margin: 5%;
+        margin-left: 90%;
+    }
+    
+    .liens img {
+        width: 400%;
+        height: 100%;
+        margin: 5%;
+        margin-left: 80%;
+    }
+
 }
 /* smartphone landscape */
 @media only screen and (min-width : 440px) {
@@ -56,7 +113,48 @@ body, html {
     .piccontent img {
         height: 70%;
     }
+
+    .wrapper {
+        margin-top: 10%;
+        margin-left: -15px;
     }
+    
+    .wrapper * {
+        height: 170px;
+        width: 200px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .wrapper p {
+        font-size: 2.5em;
+    }
+
+    .moreabout h2 {
+        font-size: 6em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .liens {
+        margin-bottom: 10%;
+        padding-right: 30%;
+    }
+    
+    .liens a {
+        font-size: 3em;
+        margin: 5%;
+        margin-left: 50%;
+    }
+    
+    .liens img {
+        width: 350%;
+        height: 100%;
+        margin: 5%;
+        margin-left: 50%;
+    }
+}
 /* ordi */
 @media only screen and (min-width : 1224px){
     .banner {
@@ -81,6 +179,64 @@ body, html {
     footer {
         height: 45%;
     }
+
+    .parafuture {
+        font-size: 1.5em;
+    }
+
+    .futurepara q {
+        font-size: 8em;
+        width: 60%;
+    }
+
+    .parag {
+        font-size: 2em;
+        margin-top: -60%;
+    }
+
+    .wrapper {
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    
+    .wrapper * {
+        height: 300px;
+        width: 400px;
+        margin: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .wrapper p {
+        font-size: 5em;
+    }
+
+    .moreabout h2 {
+        font-size: 8.5em;
+        margin-top: 5%;
+        padding-left: -10%;
+    }
+    
+    .liens {
+        margin-bottom: 10%;
+        border-right: #FDA035 5px solid;
+        padding-right: 10%;
+    }
+    
+    .liens a {
+        font-size: 2em;
+        margin: 5%;
+        margin-left: 40%;
+    }
+    
+    .liens img {
+        width: 200%;
+        height: 70%;
+        margin: 5%;
+        margin-left: 15%;
+        margin-bottom: -20%;
+    }
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -93,6 +249,62 @@ body, html {
         font-size: 5em;
         top: 30%;
         left: 70%;
+    }
+
+    .futurecontent img {
+        height: 40%;
+    }
+
+    .futurepara q {
+        font-size: 2.5em;
+        width: 40%;
+    }
+
+    .parag {
+        font-size: 2em;
+        margin-top: 10%;
+    }
+
+    .wrapper {
+        margin-top: 5%;
+        margin-left: -15px;
+        margin-bottom: 5%;
+    }
+    
+    .wrapper * {
+        height: 200px;
+        width: 230px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .wrapper p {
+        font-size: 3em;
+    }
+
+    .moreabout h2 {
+        font-size: 10em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .liens {
+        margin-bottom: 10%;
+        padding-right: 30%;
+    }
+    
+    .liens a {
+        font-size: 3em;
+        margin: 5%;
+        margin-left: 50%;
+    }
+    
+    .liens img {
+        width: 350%;
+        height: 100%;
+        margin: 5%;
+        margin-left: 50%;
     }
 }
 @media only screen and (min-device-width : 933px) and (max-device-width : 1180px) and (orientation : landscape) {
@@ -109,6 +321,62 @@ body, html {
     
     .vertical-menu {
         width: 15%;
+    }
+
+    .futurecontent img {
+        height: 40%;
+    }
+
+    .futurepara q {
+        font-size: 2.5em;
+        width: 40%;
+    }
+
+    .parag {
+        font-size: 2em;
+        margin-top: 10%;
+    }
+
+    .wrapper {
+        margin-top: 5%;
+        margin-left: -15px;
+        margin-bottom: 5%;
+    }
+    
+    .wrapper * {
+        height: 300px;
+        width: 340px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .wrapper p {
+        font-size: 5em;
+    }
+
+    .moreabout h2 {
+        font-size: 10em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .liens {
+        margin-bottom: 10%;
+        padding-right: 30%;
+    }
+    
+    .liens a {
+        font-size: 3em;
+        margin: 5%;
+        margin-left: 50%;
+    }
+    
+    .liens img {
+        width: 600%;
+        height: 100%;
+        margin: 5%;
+        margin-left: 40%;
     }
 }
 
@@ -319,8 +587,8 @@ footer {
 }
 
 .futurecontent img  {
-    width: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .parafuture {
@@ -342,9 +610,7 @@ footer {
 }
 
 .futurepara q {
-    font-size: 8em;
     color: #FDA035;
-    width: 60%;
 }
 
 
@@ -354,31 +620,22 @@ footer {
 }
 
 .parag {
-    font-size: 2em;
     position: sticky;
     top: 0%;
-    margin-top: -60%;
+
 }
 
 .wrapper {
-    margin-top: 30px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
-    margin-left: -30px;
 }
 
 .wrapper * {
-    height: 300px;
-    width: 400px;
     object-fit: cover;
-    margin: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .wrapper p {
-    font-size: 5em;
     color: #FDA035;
 }
 .gridpara, .gridpara2 {
@@ -406,33 +663,21 @@ footer {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: #FDA035;
-    font-size: 8.5em;
-    margin-top: 5%;
-    padding-left: -10%;
 }
 
 .liens {
     display: grid;
     text-align: right;
-    margin-bottom: 10%;
     border-right: #FDA035 5px solid;
-    padding-right: 10%;
 }
 
 .liens a {
     display: grid;
     text-decoration: none;
     color: white;
-    font-size: 2em;
-    margin: 5%;
-    margin-left: 40%;
+
 }
 
 .liens img {
-    width: 200%;
-    height: 70%;
     object-fit: cover;
-    margin: 5%;
-    margin-left: 15%;
-    margin-bottom: -20%;
 }
