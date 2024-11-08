@@ -199,6 +199,7 @@ body{
     margin-left: 3%;
 }
 
+
 /*Biography page*/
 
 .Biography{
@@ -236,15 +237,41 @@ body{
 .Description:hover{
     color:#3E7ADA;
 }
-.More{
+.More1{
     font-family: Rubik Mono One;
     font-size: 1em;
     color: #FDA035;
     margin-right: 20%;
     margin-left: 20%;
     text-align: center;
-
 }
+.Socialmedia{
+    text-align: center;
+}
+
+/*Page Outfits*/
+
+.OOTD{
+    font-family: Rubik Mono One;
+    color:#FDA035;
+    font-size: 2em;
+    text-align: center;
+}
+
+.Photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Photos img{
+    width : 300px;
+    height : 450px;
+    border-radius : 5px;
+}
+
+
+
+
+
 
 
 
