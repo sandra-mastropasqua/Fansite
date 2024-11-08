@@ -139,6 +139,10 @@ body, html {
     padding: 1%;
 }
 
+.menu {
+    transition: all 1s ease;
+}
+
 .vertical-menu {
     display: none;
 }
@@ -146,7 +150,6 @@ body, html {
 .menu:hover {
     .vertical-menu {
         display: block;
-        transition:block 1s ease;
     }
     .yay {
         display: none;
