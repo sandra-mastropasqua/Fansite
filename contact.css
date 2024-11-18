@@ -6,26 +6,113 @@ body{
     font-family: "Bebas Neue", sans-serif;
 }
 
-.Home{
-    font-family: "Bebas Neue";
-    color : #fda035;
-    font-size: 7em;
-    margin-left: 5%;
-    border-bottom: 2px solid grey;
-    height:120px;
+@media only screen and (max-width : 430px) {
+    .Contact {
+        font-size: 5em;
+        height:80px;
+    }
+
+    .Home  {
+        margin-top: -10%;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .fa-github {
+        font-size: 2em;
+    }
+
+    .githublink {
+        margin:0 12%;
+    }
 }
+
+/* smartphone landscape */
+@media only screen and (min-width : 440px) {
+    .Contact {
+        font-size: 5em;
+        height:80px;
+    }
+
+    .Home  {
+        margin-top: -5%;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .fa-github {
+        font-size: 2em;
+    }
+
+    .githublink {
+        margin:0 12%;
+    }
+}
+
+/* ordi */
+@media only screen and (min-width : 1224px){
+    .Contact {
+        font-size: 7em;
+        height:120px;
+    }
+
+    .Home {
+        margin-top: -3%;
+        font-size: 2em;
+    }
+
+    .fa-github {
+        font-size: 3em;
+    }
+
+    .githublink {
+        margin:0 14%;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .Contact {
+        font-size: 7em;
+        height: 110px;
+    }
+
+    .Home {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-device-width : 933px) and (max-device-width : 1180px) and (orientation : landscape) {
+    .githublink {
+        margin:0 14%;
+    }
+}
+
+
 .Contact{
     font-family: "Bebas Neue";
-    font-size: 2em;
-    margin-left: 80%;
-    margin-top: -3%;
+    color : #fda035;
+    margin-left: 5%;
+    border-bottom: 2px solid grey;
 }
-.Contact a{
+
+.Home{
+    font-family: "Bebas Neue";
+    margin-left: 80%;
+}
+
+.Home a{
     color: #fda035;
 }
+
 h1 {
     color: #FFF;
-    font-size: 5em;
     text-align: center;
 }
 
@@ -74,6 +161,28 @@ h1 {
 .submit-btn:hover {
     background-color: #3E7ADA;
 }
+
 .footer{
     text-align: center;
+    margin: 1%;
+}
+
+.footer p {
+    color: #FDA035;
+    font-size: 2em;
+}
+
+.githubcontent {
+    display: flex;
+    align-items: baseline;
+}
+
+.githublink p {
+    color: #FFF;
+    font-size: 1em;
+}
+
+.fa-github {
+    text-decoration: none;
+    color: #fda035;
 }
