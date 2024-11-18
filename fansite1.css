@@ -415,6 +415,10 @@ body, html {
     display: none;
 }
 
+.yay {
+    margin: 10px;
+}
+
 .menu:hover {
     .vertical-menu {
         display: block;
@@ -433,13 +437,18 @@ body, html {
 }
 
 .vertical-menu a {
-    color: #3E7ADA;
+    color: white;
     font-size: 2rem;
-    border-bottom:2px solid #3E7ADA;
+    text-align: right;
+
 }
 
-.vertical-menu a:hover {
+.vertical-menu a:hover{
     background-color: #15162D;
+}
+
+.menu .active {
+    color: #FDA035;
 }
 
 .par1, .par2, .par3 {
@@ -681,3 +690,24 @@ footer {
 .liens img {
     object-fit: cover;
 }
+
+label {
+    font-size: 1.5em;
+    color: #FDA035;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.contact {
+    margin: 2%;
+    display: grid;
+    width: 20%;
+    padding: 2%;
+}
+
