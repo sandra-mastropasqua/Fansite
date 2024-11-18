@@ -1,4 +1,4 @@
-* {
+*{
     margin : 10px;
     padding: 0;
     text-decoration: none;
@@ -8,39 +8,262 @@ body{
     background-color: #15162D;
 
 }
+/*Media queries*/
+
+/*For computer*/
+
+@media only screen and (min-width : 1224px){
+    .BillieEilish{
+        font-size: 25px;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        text-align: center;
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+          }
+    }
+    .Subtitlealbum{
+        text-align : center;
+    }
+    .Navbar{ 
+        margin-bottom: 30px;
+        height : 30px;
+        display : flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .Link a{
+        margin : 0 90px;
+        box-shadow: 0.3s ease;
+    }
+    .Link:hover a{
+        box-shadow: 0px 4px 15px rgba(0,0,0,7);
+    }
+    .picturenews{
+        display : flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .picturenews img{
+        height : 600px;
+        margin-left : 20px;
+    }
+    .Newsletter{
+        display: flex;
+        flex-direction : row;
+        justify-content: center;
+        font-size: 2em;
+    }
+    .Newsletter:hover{
+        color: white;
+    }
+    .Clip1 p{
+        font-family: Rubik mono one;
+        font-size: 1.5em;
+        color: white;
+    }
+    .Clip1{
+        align-items: center;
+    }
+    #slider{ 
+        height: 315px; 
+        width: 500px; 
+        overflow: hidden;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        text-align: left;
+        animation: 10s slidy infinite;
+    }
+    #slider figure img { 
+        width: 20%; 
+        height: 30%; 
+        float: left; 
+    }
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+    }
+    .Name2 p{
+        font-size: 1.5em;
+    }
+    .Imagesconverse{
+        display: flex;
+    }
+    .Imagesconverse img{
+        width : 250px;
+        height : 200px;
+    }
+    .billieconcert{
+        display: flex;
+    }
+    .billieconcert img{
+        width : 250px;
+        height : 200px;
+    }
+    .More p{
+        display: flex;
+        flex-direction :row-reverse;
+        font-size: 1.5em;
+    }
+    .Aboutme p{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .Link3{
+        text-align: center;
+        margin-bottom : 5%;
+    }
+}
+
+/*For smartphone*/
+
+@media only screen and (max-width : 430px){
+    .BillieEilish{
+        font-size: 60px;
+        width : 667px;
+    }
+    .Subtitlealbum{
+        font-size : 35px;
+        text-align: center;
+        width : 667px;
+    }
+
+    .Navbar{ 
+        font-size: 35px;
+        width : 667px;
+        text-align: center;
+        
+    }
+    .Link a{
+        margin : 0 90px;
+        box-shadow: 0.3s ease;
+    }
+    .Link:hover a{
+        box-shadow: 0px 4px 15px rgba(0,0,0,7);
+    }
+    .picturenews{
+        display: flex;
+        justify-content : space-between;
+        margin-left: 15%;
+    }
+    
+    .picturenews img{
+        width : 222px;
+        height : 222px;
+        object-fit: cover;
+    }
+    .Newsletter{
+        display: flex;
+        flex-direction : row;
+        justify-content: center;
+        font-size: 2em;
+    }
+    .Newsletter:hover{
+        color: white;
+    }
+    .Clip1 p{
+        font-family: Rubik mono one;
+        font-size: 1.5em;
+        color: white;
+    }
+    .Clip1{
+        align-items: center;
+    }
+    #slider{ 
+        height: 315px; 
+        width: 500px; 
+        overflow: hidden;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        text-align: left;
+        animation: 10s slidy infinite;
+    }
+    #slider figure img { 
+        width: 20%; 
+        height: 30%; 
+        float: left; 
+    }
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+    }
+    .Name2 p{
+        font-size: 1.5em;
+    }
+    .Imagesconverse{
+        display: flex;
+    }
+    .Imagesconverse img{
+        width : 195px;
+        height : 200px;
+    }
+    .billieconcert{
+        display: flex;
+    }
+    .billieconcert img{
+        width : 250px;
+        height : 200px;
+    }
+    .More p{
+        width : 667px;
+    }
+    .Aboutme p{
+        font-size: 1.5em;
+        
+    }
+    .Link3{
+        margin-bottom : 5%;
+    }
+}
+
 .BillieEilish{
-    font-size: 25px;
     background-color: #FDA035;
     font-family : Rubik Mono One;
     border-radius: 10px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    text-align: center;
-    animation-duration: 2s;
-    animation-name: slidein;
-}
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-      }
 }
 
 .Subtitlealbum{
     font-family: Rubik Mono One;
     color: white;
-    text-align : center;
 }
 .Navbar{ 
     background-color: #15162D;
     background-size: cover;
     font-family: Rubik Mono One;
-    margin-bottom: 30px;
-    height : 30px;
     display : flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,112 +274,36 @@ body{
     color: #3E7ADA;
 }
 .Link a{
-    margin : 0 90px;
     color: #3E7ADA;
-    box-shadow: 0.3s ease;
 }
-.Link:hover a{
-    box-shadow: 0px 4px 15px rgba(0,0,0,7);
-}
-/*Picture in left in the page News*/
 
-.picturenews{
-    display : flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.picturenews img{
-    height : 600px;
-    margin-left : 20px;
-}
 /*Newsletter*/
 
 .Newsletter{
-    display: flex;
     color: #FDA035;
     font-family: Rubik Mono One;
-    flex-direction : row;
-    justify-content: center;
-    font-size: 2em;
 }
 .Newsletter:hover{
     color: white;
 }
 .Clip1 p{
     font-family: Rubik mono one;
-    font-size: 1.5em;
     color: white;
-}
-.Clip1{
-    align-items: center;
-}
-#slider{ 
-    height: 315px; 
-    width: 500px; 
-    overflow: hidden;
-}
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    text-align: left;
-    animation: 10s slidy infinite;
-}
-#slider figure img { 
-    width: 20%; 
-    height: 30%; 
-    float: left; 
-}
-@keyframes slidy {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
 }
 .Name2 p{
     font-family: Rubik mono one;
-    font-size: 1.5em;
     color: white;
 }
-.Imagesconverse{
-    display: flex;
-}
-.Imagesconverse img{
-    width : 250px;
-    height : 200px;
-}
-.billieconcert{
-    display: flex;
-}
-.billieconcert img{
-    width : 250px;
-    height : 200px;
-}
+
 .More p{
-    display: flex;
-    flex-direction :row-reverse;
     font-family: Rubik mono one;
-    font-size: 1.5em;
     color: #FDA035;
 }
 .Aboutme p{
-    margin-top: 5%;
-    text-align: center;
     font-family : Rubik mono one;
     color : white;
-    font-size: 1.5em;
 }
-.Link3{
-    text-align: center;
-    margin-bottom : 5%;
-}
+
 
 /*Music page*/
 
