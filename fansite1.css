@@ -155,7 +155,7 @@ body, html {
         margin-left: 50%;
     }
 }
-/* ordi */
+/* computer */
 @media only screen and (min-width : 1224px){
     .banner {
     height: 100%;
@@ -239,6 +239,7 @@ body, html {
 
 }
 
+/* tablet portrait */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .banner {
         height: 70%;
@@ -307,6 +308,8 @@ body, html {
         margin-left: 50%;
     }
 }
+
+/* tablet landscape */
 @media only screen and (min-device-width : 933px) and (max-device-width : 1180px) and (orientation : landscape) {
     .banner {
         height: 100%;
