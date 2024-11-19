@@ -411,19 +411,19 @@ body, html {
     transition: all 1s ease;
 }
 
-.vertical-menu {
-    display: none;
+.menulogo {
+    margin: 10px;
 }
 
-.yay {
-    margin: 10px;
+.vertical-menu {
+    display: none;
 }
 
 .menu:hover {
     .vertical-menu {
         display: block;
     }
-    .yay {
+    .menulogo {
         display: none;
     }
 }
