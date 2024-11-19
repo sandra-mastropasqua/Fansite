@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #15162d;
+}
+
+.Home{
+    font-family: Bebas Neue;
+    color : #fda035;
+    font-size: 7em;
+    margin-left: 5%;
+    border-bottom: 2px solid grey;
+    height:120px;
+}
+.Contact{
+    font-family: Bebas Neue;
+    font-size: 2em;
+    margin-left: 80%;
+    margin-top: -3%;
+}
+.Contact a{
+    color: #fda035;
+}
+/*Text Billie*/
+
+.Choice{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 70px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Billie a{
+    position: absolute;
+    font-size: 5em;
+    font-weight: bold;
+    color: #fda035;
+    font-family: Rubik Mono One;
+    z-index: 2;
+    top: 140px;
+    right : 100px;
+    transition: opacity 0.3s;
+    
+}
+.photo{
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    transition: filter 0.3s;
+}
+.image-item{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Choice:hover .photo{
+    filter: blur(5px);
+}
+.Choice:hover .Billie{
+    opacity: 1;
+}
+/*Text Rihanna*/
+
+.Rihanna a{
+    position: absolute;
+    font-size: 7em;
+    font-weight: bold;
+    color: #fda035;
+    font-family: Bokor;
+    z-index: 2;
+    top: 190px;
+    transition: opacity 0.3s;
+}
+
+/*Station*/
+
+.Gare a{
+    position: absolute;
+    font-size: 7em;
+    font-weight: bold;
+    color: #fda035;
+    font-family: Bebas Neue;
+    z-index: 2;
+    top: 90px;
+    transition: opacity 0.3s;
+}
+.image-item1{
+    margin-top: 20px;
+    width: 1000px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*Paragraph*/
+.Paragraph p{
+    font-family: Bebas Neue;
+    color :#fda035;
+    font-size: 2em;
+    text-align: center;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    margin: 1%;
+}
+
+.footer p {
+    color: #FDA035;
+    font-size: 2em;
+    font-family: "Bebas neue";
+}
+
+.githubcontent {
+    display: flex;
+    align-items: baseline;
+}
+
+.githublink p {
+    color: #FFF;
+    font-size: 1em;
+}
+
+.fa-github {
+    text-decoration: none;
+    color: #fda035;
+}
+
+.fa-github {
+    font-size: 3em;
+}
+
+.githublink {
+    margin:0 14%;
+}
